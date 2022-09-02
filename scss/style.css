@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: x-large;
+  letter-spacing: 2px;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+header .header {
+  width: 100%;
+}
+header .header h1 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  height: auto;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: auto;
+  border: solid rgb(177, 175, 175);
+  background: rgba(24, 24, 27, 0.6);
+  margin: 0 auto;
+  color: aliceblue;
+}
+.container h2 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.6);
+  margin-bottom: 2.5rem;
+}
+.container .search__bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.container .search__bar .location {
+  border-radius: 5px;
+  border: solid 1px;
+  height: 29px;
+  margin-right: 10px;
+}
+.container .search__bar .search {
+  border-radius: 10px;
+  border: solid 1px;
+  height: 29px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.inputTemp {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputTemp__number {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+}
+.weather .weather__min {
+  margin-bottom: 1.5rem;
+}
+
+.location__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.location__container .location__date {
+  display: flex;
+  justify-content: center;
+}
+.location__container .location__city {
+  margin-top: 1.5rem;
+}/*# sourceMappingURL=style.css.map */

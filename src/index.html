@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/scss/style.css">
+    <script src="../script.js" defer > </script>
+</head>
+
+<body onload="onload()">
+    <header>
+        <div class="header">
+            <h1>  Welcome to my weather! </h1>
+        </div>
+    </header>    
+
+    
+        <div class="container" id="container">
+        
+            <div class="inputTemp">
+
+                <h2> Choose a location </h2>
+                <form class="search__bar" id="search__submit">
+                    <input class="location"id="search__input" type="text" placeholder="Search for a city..." > 
+                    <button class="search" type="submit" value="Search">Search</button>
+                </form>
+            <div class="location__container">   
+                <div class="location">
+                <div class="location__city" id="timezone"></div>
+                <div class="location__date" id="date"></div>
+                </div>
+
+                <div class="inputTemp__number">
+                    <div class="inputTemp__celsius" id="degreenumber"></div>
+                </div>
+
+                <div id="weatherIcon">
+                    <img src="" alt="icon" class="icon">
+                </div>
+                <div class="inputTemp__description" id="description"></div>
+
+                <div class="weather">
+                    <div class="weather__min" id="range"><small></small><span class="min"></span></div>
+                </div>
+            
+        
+        </div>
+        
+</body>
+</html>
