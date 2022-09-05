@@ -5,7 +5,7 @@
 This project was based on Js basic knowledge. Using Openweather app and unsplash API, I was able to fetch data in order to have daily weather information by city.
 As features :
 
-- Style app
+- styled app
 - A picture as background each time we look for a city
 - Icon that represent weather conditions.
 
